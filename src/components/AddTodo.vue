@@ -149,6 +149,9 @@ export default class AddTodo extends Vue {
       border-bottom-right-radius: 4px;
       width: 30%;
     }
+    button:hover {
+      cursor: pointer;
+    }
   }
 
   .category {
@@ -172,10 +175,6 @@ export default class AddTodo extends Vue {
       width: 25%;
       position: relative;
       text-align: center;
-      // display: flex;
-      // justify-content: center;
-      // align-items: center;
-      // width: 25%;
     }
 
     label,

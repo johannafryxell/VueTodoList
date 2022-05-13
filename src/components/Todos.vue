@@ -88,24 +88,6 @@ export default class Todos extends Vue {
   align-items: center;
   justify-content: center;
 
-  // .groupTodos {
-  //   align-items: center;
-  //   display: flex;
-  //   max-height: 60vh;
-  //   justify-content: center;
-  //   flex-wrap: wrap;
-  //   max-width: 50vw;
-  //   align-items: flex-start;
-  //   align-content: flex-start;
-  //   @include for-tablet-landscape-up {
-  //   }
-  // }
-  // .topPart {
-  //   width: 100%;
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  // }
   .img-wrapper {
     width: 140px;
     img {

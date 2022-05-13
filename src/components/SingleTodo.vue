@@ -49,7 +49,6 @@ export default class SingleTodo extends Vue {
   }
 
   changeState() {
-    // this.shownTodo.done = !this.shownTodo.done;
     this.$emit("changeState", this.shownTodo);
   }
 
