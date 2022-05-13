@@ -1,27 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <Todos />
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import HelloWorld from "./components/HelloWorld.vue";
+import Todos from "./components/Todos.vue";
 
 @Options({
   components: {
-    HelloWorld,
+    Todos,
   },
 })
 export default class App extends Vue {}
 </script>
 
 <style lang="scss">
+@import "./assets/style/_mixins.scss";
+
+html {
+  background-color: #ffefc7;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 </style>
